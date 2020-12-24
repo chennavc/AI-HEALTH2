@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Contact V7</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="../static/images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="../static/vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="../static/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="../static/fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="../static/vendor/animate/animate.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="../static/vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="../static/vendor/animsition/css/animsition.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="../static/vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="../vendor/daterangepicker/daterangepicker.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="../static/css/util.css">
+	<link rel="stylesheet" type="text/css" href="../static/css/main.css">
+<!--===============================================================================================-->
+</head>
+<body>
+<section class="navbar navbar-default navbar-static-top" role="navigation">
+          <div class="container">
+
+               <div class="navbar-header">
+                    <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                         <span class="icon icon-bar"></span>
+                         <span class="icon icon-bar"></span>
+                         <span class="icon icon-bar"></span>
+                    </button>
+
+                    <!-- lOGO TEXT HERE -->
+                    <a href="/" class="navbar-brand"><i class="fa"></i>AI Diagnosis</a>
+               </div>
+
+               <!-- MENU LINKS -->
+               <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                         <li><a href="#top" class="smoothScroll">Home</a></li>
+                         <li><a href="#about" class="smoothScroll">About Us</a></li>
+                         <li><a href="#team" class="smoothScroll">Our Services</a></li>
+                   
+                    </ul>
+               </div>
+
+          </div>
+     </section>
+
+<!-- boady -->
+
+	
+	<div class="container-contact100",text-align: center;>
+
+		<div class="wrap-contact100">
+			<form class="contact100-form validate-form" action="{{ url_for('cancer')}}" method="post">
+				<span class="contact100-form-title">
+					Enter data
+				</span>
+				<div class="wrap-input100 validate-input" data-validate="Name is perimeter_worst">
+					<input class="input100" id="name" type="text" name="perimeter_worst" placeholder="perimeter_worst">
+					<label class="label-input100" for="perimeter_worst">
+						<span class="lnr lnr-user"></span>
+					</label>
+				</div>
+
+				<div class="wrap-input100 validate-input" data-validate="Name is required">
+					<input class="input100" id="name" type="text" name="concave_points_mean" placeholder="Concave points mean">
+					<label class="label-input100" for="concave_points_mean">
+						<span class="lnr lnr-user"></span>
+					</label>
+				</div>
+				<div class="wrap-input100 validate-input" data-validate="Name is required">
+					<input class="input100" id="name" type="text" name="radius_worst" placeholder="Radius worst">
+					<label class="label-input100" for="radius_worst">
+						<span class="lnr lnr-user"></span>
+					</label>
+				</div>
+				<div class="wrap-input100 validate-input" data-validate="Name is required">
+					<input class="input100" id="name" type="text" name="concave_points_worst" placeholder="Concave points worst">
+					<label class="label-input100" for="concave_points_worst">
+						<span class="lnr lnr-user"></span>
+					</label>
+				</div>
+				<div class="wrap-input100 validate-input" data-validate="Name is required">
+					<input class="input100" id="name" type="text" name="radius_mean" placeholder="Radius mean">
+					<label class="label-input100" for="radius_mean">
+						<span class="lnr lnr-user"></span>
+					</label>
+				</div>
+				<div class="wrap-input100 validate-input" data-validate="Name is required">
+					<input class="input100" id="name" type="text" name="area_mean" placeholder="Area mean">
+					<label class="label-input100" for="area_mean">
+						<span class="lnr lnr-user"></span>
+					</label>
+				</div>
+				<div class="wrap-input100 validate-input" data-validate="Name is required">
+					<input class="input100" id="name" type="text" name="concavity_mean" placeholder="Concavity mean">
+					<label class="label-input100" for="concavity_mean">
+						<span class="lnr lnr-user"></span>
+					</label>
+				</div>
+				<div class="wrap-input100 validate-input" data-validate="Name is required">
+					<input class="input100" id="name" type="text" name="perimeter_mean" placeholder="Perimeter mean">
+					<label class="label-input100" for="perimeter_mean">
+						<span class="lnr lnr-user"></span>
+					</label>
+				</div>
+				<div class="wrap-input100 validate-input" data-validate="Name is required">
+					<input class="input100" id="name" type="text" name="area_worst" placeholder="Area worst">
+					<label class="label-input100" for="area_worst">
+						<span class="lnr lnr-user"></span>
+					</label>
+				</div>
+				<div class="wrap-input100 validate-input" data-validate="Name is required">
+					<input class="input100" id="name" type="text" name="concavity_worst" placeholder="Concavity worst">
+					<label class="label-input100" for="concavity_worst">
+						<span class="lnr lnr-user"></span>
+					</label>
+				</div>
+				
+				<div class="container-contact100-form-btn" style ="padding-left:190px">
+					<div class="wrap-contact100-form-btn" >
+						<div class="contact100-form-bgbtn"></div>
+						<button class="contact100-form-btn" >
+							Submit
+						</button>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+
+
+
+	<div id="dropDownSelect1"></div>
+
+<!--===============================================================================================-->
+	<script src="../static/vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="../static/vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+	<script src="../static/vendor/bootstrap/js/popper.js"></script>
+	<script src="../static/vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="../static/vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="../static/vendor/daterangepicker/moment.min.js"></script>
+	<script src="../static/vendor/daterangepicker/daterangepicker.js"></script>
+<!--===============================================================================================-->
+	<script src="../static/vendor/countdowntime/countdowntime.js"></script>
+<!--===============================================================================================-->
+	<script src="../static/js/main.js"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-23581568-13');
+</script>
+
+</body>
+</html>
