@@ -471,11 +471,11 @@ header span i {
 }
 
 .slider .item-first {
-    background-image: url(../static/images/slider4.jpeg);
+    background-image: url(/static/images/slider4.jpeg);
 }
 
 .slider .item-second {
-    background-image: url(../static/images/slider5.jpg);
+    background-image: url(/static/images/slider5.jpg);
 }
 
 
